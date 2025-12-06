@@ -30,10 +30,6 @@ function App() {
       >
         <FaTasks size={24} color="#4CAF50" /> Todo List
       </h1>
-
-      <h1>Francis Kert</h1>
-      <h1>kertty</h1>
-
       <div style={{ width: "100%", maxWidth: "400px" }}>
         <TodoInput addTodo={addTodo} />
         <TodoList todos={todos} deleteTodo={deleteTodo} />
