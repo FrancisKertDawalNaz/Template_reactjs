@@ -1,8 +1,23 @@
+import ReactLogo from "../assets/react.svg";
+
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top" style={{ backgroundColor: "transparent" }}>
+    <nav
+      className="navbar navbar-expand-lg fixed-top"
+      style={{ backgroundColor: "transparent" }}
+    >
       <div className="container">
-        <a className="navbar-brand text-dark" href="#home">FKDN.</a>
+        <a className="navbar-brand" href="#home">
+          <img
+            src={ReactLogo}
+            alt="FKDN Logo"
+            width="30"
+            height="30"
+            className="d-inline-block align-text-top me-2"
+          />
+          FKDN.
+        </a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -17,13 +32,19 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#home">Home</a>
+              <a className="nav-link text-dark" href="#home">
+                Home
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#about">About</a>
+              <a className="nav-link text-dark" href="#about">
+                About
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#contact">Contact</a>
+              <a className="nav-link text-dark" href="#contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>

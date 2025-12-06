@@ -6,19 +6,37 @@ function App() {
     <>
       <Header />
 
-      <section id="home" style={{ height: "100vh", paddingTop: "80px" }}>
-        <h1 class=" text-danger">Home Section</h1>
-        <p>Welcome to our website!</p>
+      <section
+        id="home"
+        className="d-flex justify-content-center align-items-center"
+        style={{ height: "100vh", background: "#f8f9fa", paddingTop: "80px" }}
+      >
+        <div className="text-center">
+          <h1 className="text-danger">Home Section</h1>
+          <p>Welcome to our website!</p>
+        </div>
       </section>
 
-      <section id="about" style={{ height: "100vh", paddingTop: "80px", background: "#f8f9fa" }}>
-        <h1 class="text-success">About Section</h1>
-        <p>This is the About section of the website.</p>
+      <section
+        id="about"
+        className="d-flex justify-content-center align-items-center"
+        style={{ height: "100vh", paddingTop: "80px" }}
+      >
+        <div className=" text-center">
+          <h1 class="text-success">About Section</h1>
+          <p>This is the About section of the website.</p>
+        </div>
       </section>
 
-      <section id="contact" style={{ height: "100vh", paddingTop: "80px" }}>
-        <h1>Contact Section</h1>
-        <p>Contact us here.</p>
+      <section
+        id="contact"
+        className=" d-flex justify-content-center align-items-center"
+        style={{ height: "100vh", paddingTop: "80px", background: "#f8f9fa" }}
+      >
+       <div className="text-center">
+          <h1 class="text-primary">Contact Section</h1>
+          <p>Get in touch with us!</p>
+       </div>
       </section>
     </>
   );
