@@ -1,4 +1,5 @@
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <section
         id="home"
         className="d-flex justify-content-center align-items-center"
-        style={{ height: "100vh", background: "#f8f9fa", paddingTop: "80px" }}
+        style={{ height: "100vh", background: "#f8f9fa", paddingTop: "8px" }}
       >
         <div className="text-center">
           <h1 className="text-danger">Home Section</h1>
@@ -38,6 +39,8 @@ function App() {
           <p>Get in touch with us!</p>
        </div>
       </section>
+
+      <Footer />
     </>
   );
 }
