@@ -32,6 +32,7 @@ function App() {
       </h1>
 
       <h1>Francis Kert</h1>
+      <h1>kertty</h1>
 
       <div style={{ width: "100%", maxWidth: "400px" }}>
         <TodoInput addTodo={addTodo} />
