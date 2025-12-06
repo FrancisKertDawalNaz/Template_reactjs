@@ -1,10 +1,10 @@
 import ReactLogo from "../assets/react.svg"; // replace with your logo
-
+import { FaMoon } from "react-icons/fa"; 
 
 function Header() {
   return (
     <nav
-      className="navbar navbar-expand-lg fixed-top navbar-light"
+      className="navbar navbar-expand-lg fixed-top navbar-light "
       style={{ backgroundColor: "transparent" }}
     >
       <div className="container">
@@ -15,7 +15,7 @@ function Header() {
             alt="FKDN Logo"
             width="40"
             height="40"
-            className="d-inline-block align-text-top me-2"
+            className="d-inline-block align-text-top me-2 link-primary"
           />
           FKDN.
         </a>
@@ -34,8 +34,8 @@ function Header() {
         </button>
 
         {/* Links */}
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link text-dark link-primary" href="#home">
                 Home
@@ -63,6 +63,13 @@ function Header() {
             </li>
           </ul>
         </div>
+
+        {/* Right-side icon */}
+        <div className="d-flex align-items-center">
+          <FaMoon size={20} className="text-dark" style={{ cursor: "pointer" }} />
+        </div>
+
+
       </div>
     </nav>
   );

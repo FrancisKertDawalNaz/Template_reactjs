@@ -1,5 +1,6 @@
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import ReactLogo from "./assets/react.svg"; 
 import "./App.css";
 
 function App() {
@@ -12,9 +13,21 @@ function App() {
         className="d-flex justify-content-center align-items-center"
         style={{ height: "100vh", background: "#f8f9fa", paddingTop: "8px" }}
       >
-        <div className="text-center">
-          <h1 className="text-danger">Home Section</h1>
-          <p>Welcome to our website!</p>
+        <div className=" container">
+          <div className=" row align-items-center">
+            <div className=" col-md-6 text-center text-md-start">
+              <h1 class="text-primary">Welcome to FKDN.</h1>
+              <p>Your trusted partner in innovative solutions.</p>
+              <a href="#contact" className="btn btn-primary btn-lg">Contact Us</a>
+            </div>
+            <div className=" col-md-6 text-center">
+              <img
+                src={ReactLogo}
+                alt="Placeholder"
+                className="img-fluid"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
