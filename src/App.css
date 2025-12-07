@@ -44,3 +44,19 @@
 .navbar-nav .nav-link {
   cursor: pointer;
 }
+
+
+/* Global dark mode settings */
+.dark-mode {
+  background-color: #121212 !important;
+  color: white !important;
+}
+
+/* Fix text colors inside dark mode */
+.dark-mode .nav-link {
+  color: #fff !important;
+}
+
+.dark-mode .navbar-brand {
+  color: #fff !important;
+}

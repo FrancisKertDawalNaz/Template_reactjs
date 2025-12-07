@@ -11,7 +11,7 @@ function App() {
       <section
         id="home"
         className="d-flex justify-content-center align-items-center"
-        style={{ height: "100vh", background: "#f8f9fa", paddingTop: "8px" }}
+        style={{ height: "100vh", paddingTop: "8px" }}
       >
         <div className=" container">
           <div className=" row align-items-center">
@@ -45,7 +45,7 @@ function App() {
       <section
         id="contact"
         className=" d-flex justify-content-center align-items-center"
-        style={{ height: "100vh", paddingTop: "80px", background: "#f8f9fa" }}
+        style={{ height: "100vh", paddingTop: "80px"}}
       >
        <div className="text-center">
           <h1 class="text-primary">Contact Section</h1>
